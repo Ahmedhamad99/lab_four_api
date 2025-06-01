@@ -1,0 +1,46 @@
+
+to get all users
+method: GET
+url: http://localhost:3000/api/v1/users
+
+to get the first user
+method: GET
+url: http://localhost:3000/api/v1/users/1
+to update a user
+method: PUT
+url: http://localhost:3000/api/v1/users/1
+body: {
+    name: "updated name",
+}
+to delete a user
+method: DELETE
+url: http://localhost:3000/api/v1/users/1  
+
+
+
+
+##########################################
+
+to get all  posts
+method: GET
+url: http://localhost:3000/api/v1/posts
+
+
+to get the first post
+method: GET
+url: http://localhost:3000/api/v1/posts/1
+
+to update a post 
+method: PUT
+url: http://localhost:3000/api/v1/posts/1
+
+body: {
+    title: "updated title",
+    content: "updated content"
+}
+
+to delete a post
+method: DELETE
+url: http://localhost:3000/api/v1/posts/1
+ 
+
